@@ -1,0 +1,154 @@
+/* -- main -- */
+
+html {
+	font-family: 'Ubuntu', serif;
+	background: #fff;
+	color: #272727;
+	overflow-x: hidden;
+}
+main {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/* -- hgroup -- */
+
+h1 {
+	margin-top: 60px;
+	font-size: 39px;
+	font-weight: 700;
+}
+h2 {
+	margin-top: 15px;
+	font-size: 35px;
+	font-weight: 700;
+}
+#location {
+	margin-bottom: 20px;
+}
+h3 {
+	font-size: 23px;
+	color: #fff;
+	font-weight: 400;
+}
+h4 {
+	font-size: 27px;
+	font-weight: 700;
+}
+
+/* -- ul li -- */
+
+main ul {
+	margin-top: 15px;
+}
+main li {
+	font-size: 23px;
+	list-style-type: none;
+}
+
+/* -- location -- */
+
+.distance {
+	width: 776px;
+	border-radius: 23px;
+	background: #272727;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	padding-left: 18px;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	align-items: center;
+}
+.distance p {
+	font-size: 18px;
+	background: #fff;
+	color: #272727;
+	border-radius: 23px;
+	font-weight: 700;
+	padding: 8px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+#airport {
+	border-radius: 35px;
+}
+#airport p {
+	border-radius: 36px;
+	padding: 8px;
+}
+
+/* -- map -- */
+
+iframe {
+	margin-top: 58px;
+	margin-bottom: 50px;
+	width: 848px;
+	height: 368px;
+	border: 0;
+	background: #272727;
+	color: #fff;
+}
+
+/* -- footer -- */
+
+footer {
+	width: 1170px;
+	margin: 0 auto;
+	font-family: 'Playfair Display', serif;
+	margin-top: 50px;
+	margin-bottom: 73px;
+}
+
+/* -- media -- */
+
+@media (max-width: 1170px) {
+	main {
+		width: auto;
+		padding-left: 1vw;
+		padding-right: 1vw;
+	}
+	footer {
+		width: auto;
+		margin-left: 1vw;
+	}
+}
+@media (max-width: 888px) {
+	.distance {
+		width: 98%;
+		padding: 1.5vw;
+	}
+	iframe {
+		width: 100%;
+	}
+}
+@media (max-width: 635px) {
+	h1 {
+		font-size: 6.24vw;
+		margin-top: 5vw;
+	}
+	h2 {
+		font-size: 5.6vw;
+		margin-top: 2vw;
+	}
+	h3 {
+		font-size: 3.68vw;
+	}
+	h4 {
+		font-size: 4.32vw;
+	}
+	main ul {
+		margin-top: 2vw;
+	}
+	main li {
+		font-size: 3.68vw;
+	}
+	.distance p {
+		font-size: 2.88vw;
+		padding: 1vw;
+	}
+	iframe {
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+	}
+}

@@ -1,0 +1,59 @@
+/* -- main -- */
+html {
+	font-family: "Ubuntu";
+	overflow-x: hidden;
+}
+main {
+	width: 1170px;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 39px;
+	margin-top: 60px;
+	color: #272727;
+}
+p {
+	font-size: 23px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+iframe {
+	width: 1170px;
+	height: 541px;
+	background-color: #272727;
+	margin-top: 15px;
+	border: none;
+}
+
+/* -- footer -- */
+
+footer {
+	width: 1170px;
+	margin: 0 auto;
+	font-family: 'Playfair Display', serif;
+	margin-top: 50px;
+	margin-bottom: 73px;
+}
+
+@media (max-width: 1170px) {
+
+	/* -- main -- */
+
+	main {
+		width: auto;
+		padding-left: 2vw;
+		padding-right: 2vw;
+	}
+	h1 {
+		font-size: 4.5vw;
+	}
+	footer {
+		width: auto;
+		margin-left: 1vw;
+	}
+	iframe {
+		margin: 0 auto;
+		width: 98vw;
+		height: 500px;
+	}
+}
